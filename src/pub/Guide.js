@@ -38,8 +38,8 @@ const Guide = () => {
                   <td className="sbj"></td>
                   <td className="type"></td>
                   <td className="link" id="">
-                    <Link target={"_blank"} to="/pub/Nav">
-                      /pub/Nav
+                    <Link target={"_blank"} to="/pub/Navigation">
+                      /pub/Navigation
                     </Link>
                   </td>
                   <td className="wdate"></td>
