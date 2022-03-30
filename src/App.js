@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Route, Switch } from "react-router-dom";
 // import { Router } from "@/routers";
 import Guide from "@/pub/Guide.js";
-import Loading from "@/pub/Loading.js";
+import Nav from "@/pub/Nav.js";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
           </Link>
         </Route>
         <Route path="/pub/guide" component={Guide} />
-        <Route path="/pub/Loading" component={Loading} />
+        <Route path="/pub/Nav" component={Nav} />
       </Switch>
     </>
   );

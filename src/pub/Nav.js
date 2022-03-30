@@ -1,8 +1,8 @@
-const Loading = () => {
+const Nav = () => {
   return (
     <>
       <p>defkekfkefk</p>
     </>
   );
 };
-export default Loading;
+export default Nav;
