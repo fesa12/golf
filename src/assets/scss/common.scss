@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+// 공통
+@import "reset";
+
+$color: red;
+
+h1 {
+  color: $color;
+}
+p {
+  color: $color;
+}

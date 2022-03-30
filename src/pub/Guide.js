@@ -5,7 +5,7 @@ const Guide = () => {
   return (
     <div className="guide_wrap">
       <nav className="leftmenu">
-        <h1 className="title">123</h1>
+        <h1 className="title">Golf AI Analysis</h1>
         <ul>
           <li>
             <a href="#menu0">공통</a>
