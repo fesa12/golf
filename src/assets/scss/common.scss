@@ -3,4 +3,129 @@
 // 공통
 @import "reset";
 
-$color: green;
+$appPath: "/assets";
+
+$c-blue: #171c61;
+$c-white: #fff;
+$c-black: #000;
+$c-black2: #222;
+$c-gray: #e6e6e6;
+
+.dim {
+  opacity: 0.7;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: $c-black;
+  z-index: 22;
+}
+
+// layout
+.navWrap {
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  max-width: 34rem;
+  width: calc(100% - 3.5rem);
+  height: 100vh;
+  padding-bottom: 1rem;
+  background: $c-white;
+  z-index: 99;
+
+  header {
+    display: flex;
+    align-items: center;
+    padding: 1.7rem 2.4rem 4rem;
+    background: $c-blue;
+
+    img {
+      width: 5rem;
+      height: 5rem;
+      margin-right: 0.8rem;
+      border-radius: 100%;
+    }
+
+    p,
+    button {
+      font-size: 1.8rem;
+      color: $c-white;
+      font-weight: 200;
+    }
+
+    button {
+      border-bottom: 0.2rem solid $c-white;
+    }
+  }
+}
+
+.navList {
+  padding: 0 1.6rem;
+
+  > li {
+    border-bottom: 0.1rem solid $c-gray;
+
+    .first {
+      width: 100%;
+      line-height: 7rem;
+      padding: 0 2.4rem 0 5rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: $c-black2;
+      text-align: left;
+      background-size: 3rem, 2.4rem;
+      background-position: 1.5rem, right 0.8rem top 50%;
+      background-repeat: no-repeat;
+    }
+
+    .gaa {
+      background-image: url(#{$appPath}/images/ico-gaa.png);
+    }
+    .swing {
+      background-image: url(#{$appPath}/images/ico-swing.png);
+    }
+    .compare {
+      background-image: url(#{$appPath}/images/ico-compare.png),
+        url(#{$appPath}/images/ico-arrow.png);
+    }
+    .rank {
+      background-image: url(#{$appPath}/images/ico-rank.png),
+        url(#{$appPath}/images/ico-arrow.png);
+    }
+    .commu {
+      background-image: url(#{$appPath}/images/ico-commu.png);
+    }
+
+    ul {
+      margin: 0 0 2rem 5rem;
+
+      button {
+        height: 4rem;
+        font-size: 1.4rem;
+        color: $c-black2;
+      }
+    }
+  }
+}
+
+.navSetting {
+  position: absolute;
+  top: 2.7rem;
+  right: 7.4rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 0;
+  background: url(#{$appPath}/images/btn-setting.png) no-repeat 50% / 100%;
+}
+
+.navClose {
+  position: absolute;
+  top: 2.7rem;
+  right: 2.4rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 0;
+  background: url(#{$appPath}/images/btn-close.png) no-repeat 50% / 100%;
+}
