@@ -6,7 +6,7 @@ const Test = () => {
       <nav className="navWrap">
         <header>
           <img src={NavMember} alt={""} />
-          <p>홍길동님</p>
+
           {/* <button>로그인하기</button> */}
         </header>
         <ul className="navList">
