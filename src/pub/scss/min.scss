@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+$main-color : #2a4cb2;
+$sub-color : #3b4a;
+$font: 12px;
+%li { 
+    width:15%;
+    height:50px;
+    padding:20px;
+    background-color: azure;
+}
+@mixin li($text,$bg) {
+    font-size:$text;
+    width:15%;
+    padding:20px;
+    height:200px;
+    background-color: $bg;
+}
+
+.wrap {
+    width:50%;
+    height:2000px;
+    background-color: red;
+    margin:0 auto;
+    header {
+        display:flex;
+        position:relative;
+        width:100%;
+        height:200px;
+        background-color: skyblue;
+        .logo{
+            width:30%;
+            height:auto;
+            background-color: yellow;
+        }
+        nav {
+            width:70%;
+            height:auto;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width:100%;
+            height:100%;
+            background-color: $main-color;
+         li {
+             @include li(30px,black);
+         }
+        }
+    }
+}

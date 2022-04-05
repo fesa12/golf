@@ -1,4 +1,4 @@
-
+import "./scss/min.scss";
 
 const Test = () => {
     return (
