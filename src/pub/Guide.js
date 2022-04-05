@@ -51,6 +51,43 @@ const Guide = () => {
             </table>
           </div>
           {/* 공통 e */}
+                    {/* 공통 s */}
+                    <div className="link_notice" id="menu0">
+            <h1>공통</h1>
+            <table>
+              <thead>
+                <tr>
+                  <th>대분류</th>
+                  <th>중분류</th>
+                  <th>화면명</th>
+                  <th>구분</th>
+                  <th>링크</th>
+                  <th>작업일</th>
+                  <th>상태</th>
+                  <th>작업자</th>
+                  <th>비고(GIT URL)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="tit1">jin</td>
+                  <td className="tit2"></td>
+                  <td className="sbj"></td>
+                  <td className="type"></td>
+                  <td className="link" id="">
+                    <Link target={"_blank"} to="/pub/jin">
+                      /pub/jin
+                    </Link>
+                  </td>
+                  <td className="wdate"></td>
+                  <td className="status"></td>
+                  <td className="writer"></td>
+                  <td className="comment"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          {/* 공통 e */}
         </div>
       </div>
     </div>
