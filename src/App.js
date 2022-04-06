@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 // import { Router } from "@/routers";
 import Guide from "@/pub/Guide.js";
 import Navigation from "@/pub/Navigation.js";
@@ -10,19 +10,17 @@ const App = () => {
   return (
     <>
       <Switch>
-        <Route exact path="/">
-          <Link to="/pub/guide" target={"blank"}>
+        <Route exact path="/" component={Guide}>
+          {/* <Link to="/pub/guide" target={"blank"}>
             Guide
-          </Link>
+          </Link> */}
         </Route>
-        <Route path="/pub/guide" component={Guide} />
+        {/* <Route path="/pub/guide" component={Guide} /> */}
         <Route path="/pub/Navigation" component={Navigation} />
         <Route path="/pub/jin" component={jin} />
-        <Route path="/pub/Header" component={Header}/>
+        <Route path="/pub/Header" component={Header} />
       </Switch>
-      
     </>
-    
   );
 };
 
