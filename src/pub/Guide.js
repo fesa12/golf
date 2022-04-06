@@ -48,13 +48,13 @@ const Guide = () => {
                   <td className="comment"></td>
                 </tr>
                 <tr>
-                  <td className="tit1">Test</td>
+                  <td className="tit1">Component</td>
                   <td className="tit2"></td>
                   <td className="sbj"></td>
                   <td className="type"></td>
                   <td className="link" id="">
-                    <Link target={"_blank"} to="/pub/Test">
-                      /pub/Test
+                    <Link target={"_blank"} to="/pub/Component">
+                      /pub/Component
                     </Link>
                   </td>
                   <td className="wdate"></td>
