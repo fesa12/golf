@@ -5,6 +5,7 @@ import Guide from "@/pub/Guide.js";
 import Navigation from "@/pub/Navigation.js";
 import jin from "@/pub/jin.js";
 import Header from "@/pub/Header.js";
+import Test from "@/pub/Test.js";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/pub/Navigation" component={Navigation} />
         <Route path="/pub/jin" component={jin} />
         <Route path="/pub/Header" component={Header} />
+        <Route path="/pub/Test" component={Test} />
       </Switch>
     </>
   );

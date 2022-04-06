@@ -47,6 +47,21 @@ const Guide = () => {
                   <td className="writer"></td>
                   <td className="comment"></td>
                 </tr>
+                <tr>
+                  <td className="tit1">Test</td>
+                  <td className="tit2"></td>
+                  <td className="sbj"></td>
+                  <td className="type"></td>
+                  <td className="link" id="">
+                    <Link target={"_blank"} to="/pub/Test">
+                      /pub/Test
+                    </Link>
+                  </td>
+                  <td className="wdate"></td>
+                  <td className="status"></td>
+                  <td className="writer"></td>
+                  <td className="comment"></td>
+                </tr>
               </tbody>
             </table>
           </div>
