@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+
+$main-color : #171C61;
+$content-color :#ffffff ;
+%cont-wrap {
+    width:100%;
+    height:612px;
+    background-color: $content-color;
+    border-radius: 12px 12px 0px 0px;
+}
+%content-padding{
+    padding: 4rem 2rem  0;
+}
+@mixin content1() {
+    padding: 4rem 2rem 0;
+}    
+
+.wrap{
+    background-color: $main-color;
+    max-width:800px;
+    margin:0 auto;
+    .header-wrap {
+        display:flex;
+        position:relative;
+        align-items: center;
+        justify-content: center;
+        margin:43px 0px 10px 0 !important;
+        
+        
+        height:64px;
+        margin:0 auto;
+        h2 {
+            color:#ffff;
+            text-align: center;    
+            font-weight: 700;
+            font-size: 1.8rem;
+        
+            }
+        h2::after{
+            position:absolute;
+            content: "";
+            background-image:url("../images/Hamburger_MD.png");
+            background-repeat: no-repeat;
+            width:30px;
+            height:30px;
+            left: 500px;
+            top:21px;
+           
+        }
+    }
+    .content {
+      @extend %cont-wrap;
+
+    
+        .content-wrap {
+           @include content1();
+        }
+        .content-box{
+            width:100%;
+            height:200px;
+            background-color: skyblue;
+           
+        }
+    }
+    
+}

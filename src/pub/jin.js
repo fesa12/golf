@@ -1,4 +1,5 @@
-import "./scss/jin.scss";
+import "./assets/scss/jin.scss";
+
 const jin = () => {
     return (
     <div className="test-wrap">
