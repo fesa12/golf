@@ -20,7 +20,9 @@ const App = () => {
         <Route path="/pub/jin" component={jin} />
         <Route path="/pub/Header" component={Header}/>
       </Switch>
+      
     </>
+    
   );
 };
 
