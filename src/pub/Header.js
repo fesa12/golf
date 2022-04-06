@@ -1,25 +1,18 @@
-import "./assets/scss/common.scss";
-import "./assets/images/Hamburger_MD.png";
-
 const Header = () => {
-    return (
+  return (
     <div className="wrap">
-        <header class="header-wrap">
-            <h2 class="header-title">Golf AI Analysis</h2>
-        </header>
-        
-        <div class="content">
-            <div class="content-wrap">
-                <div class="content-box">
+      <header className="headerWrap">
+        <h1 className="headerTitle">Golf AI Analysis</h1>
+        <button className="navBtn">메뉴</button>
+      </header>
 
-                </div>
-            </div>
-
+      <div className="content">
+        <div className="contentWrap">
+          <div className="contentBox"></div>
         </div>
+      </div>
     </div>
-    
- 
-    );
+  );
 };
 
 export default Header;
