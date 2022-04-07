@@ -164,44 +164,41 @@ $c-gray: #e6e6e6;
   font-size: 0;
   background: url(#{$appPath}/images/btn-close.png) no-repeat 50% / 100%;
 }
+/* 김민우 */
+
+.h153 {height:15.3rem;}
+.h145 {height:14.5rem;}
+.h120 {height:12rem;}
+.h90 {height:9rem;}
+.pdlr20 {padding :0 2rem;}
+
 
 .content {
-  width: 100%;
+  background-color: $c-white;
+}
+.contentWrap {
   background-color: $c-white;
   border-radius: 1.2rem 1.2rem 0px 0px;
 }
-.contentWrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem 2rem 0;
-}
+.contentWrap1 { padding: 4rem 2rem 0;}
 .contentBox {
   margin: 2rem 0;
   width: 100%;
-  height: 15.3rem;
-  border: 1px solid #eeeeee;
+  border: 0.1rem solid #eeeeee;
   box-sizing: border-box;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
   &:first-child {
     margin-top: 0;
   }
 }
 
-
-/* 김민우 */
-.input{
-  width:100%;
-  height: 6rem;
-  
-}
-
 .btn {
   width:100%;
   height:6rem; 
+  border-radius: 1.2rem;
 }
+
 .gray {
   background-color: #dadada;
   color: #666666;
@@ -212,11 +209,17 @@ $c-gray: #e6e6e6;
 }
 
 /* image */
+.h3Title1 {
+  font-family: 'NanumSquare';
+  font-weight: 400;
+  font-size:1.6rem;
+  color:#222222;
+}
 .imageWrap {
   display: flex;
   flex-wrap:wrap;
   position:relative;
-  margin : 4rem 2rem 0;
+  margin-top : 4rem ;
 }
 .imageContent { 
   display: flex;
@@ -244,11 +247,11 @@ $c-gray: #e6e6e6;
   background: #C4C4C4;
   border-radius: 1.2rem;    
 }
-.textBox {
 
+  
   .textName{
 
-    display: block;
+    position: relative;
     margin-top:1rem;
     font-weight: 700;
     font-size: 1.6rem;
@@ -256,6 +259,7 @@ $c-gray: #e6e6e6;
   .textSub {
     display: flex;
     justify-content: space-between;
+    position:relative;
     margin-top:1rem;
     .heartBtn {
       font-weight: 400;
@@ -263,6 +267,7 @@ $c-gray: #e6e6e6;
       color:#000000;
       .icoHeart {
         display: inline-block;
+        position:relative;
         margin-right:0.4rem;
         width:1.2rem;
         height:1.1rem;
@@ -271,12 +276,23 @@ $c-gray: #e6e6e6;
         background-size: 1.2rem;
         background-image: url(#{$appPath}/images/ico-heartOn.png);
       }
+      .icoHeartOff {
+        display: inline-block;
+        position:relative;
+        margin-right:0.4rem;
+        width:1.2rem;
+        height:1.1rem;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-size: 1.2rem;
+        background-image: url(#{$appPath}/images/ico-heartOff.png);
+      }
   }
   .day{
     font-weight: 400;
     font-size: 1.2rem;
     color:#666666;
   }
-}
+
 
 }

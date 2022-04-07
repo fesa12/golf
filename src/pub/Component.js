@@ -9,27 +9,28 @@ const Component = () => {
         </header>
 
         {/* content */}
-    <div className="content">
-            <ul className="contentWrap">
-                <li className="contentBox">
 
-                </li>
-                <li className="contentBox">
+            <div className="contentWrap contentWrap1">
+              <div className="contentBox h153">
 
-                </li>
-            </ul>
+              </div>
+              <div className="contentBox h145">
+
+              </div>
+              <div className="contentBox h120">
+
+              </div>
+              <div className="contentBox h90">
+
+              </div>
+            
         {/* button */}
-        
-            <div class="btnWrap">
-                <input className="input"></input>
-                <br/><br/>
-                
+         
                 <button type="button" className="btn black"><p>로그인</p></button>
-                
-                <br/><br/>
-                
+
+              <br/><br/>
+
                 <button type="button" className="btn gray"><p>회원가입</p></button>
-         </div>
 
         <br/><br/>
         {/* image */}
@@ -38,49 +39,43 @@ const Component = () => {
                 <ul className="imageContent">  
                     {/*listBox*/}
                     <li className="imageList">
-                       <div className="imageBox">
-                           <span className="imgWrap"></span>
-                       </div>
-                        <div className="textBox">
-                            <h4 className="textName">JON RAHM</h4>
-                            <div className="textSub">
-                             <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
-                             <p className="day">22.03.06</p>
-                            </div>
-                       </div>
-                    </li>
-                    {/*listBox*/}
-                    <li className="imageList">
                        <div className="imageBox"></div>
-                        <div className="textBox">
                             <h4 className="textName">Tiger Woods</h4>
                             <div className="textSub">
                              <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
                              <p className="day">22.03.06</p>
                             </div>
-                       </div>
-                    </li>                     
+                        
+                    </li> 
                     {/*listBox*/}
                     <li className="imageList">
                        <div className="imageBox"></div>
-                        <div className="textBox">
-                            <h4 className="textName">JON RAHM</h4>
+                            <h4 className="textName">Tiger Woods</h4>
                             <div className="textSub">
-                             <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
+                             <button type="button" className="heartBtn"><span className="ico icoHeartOff"></span>100개</button>
                              <p className="day">22.03.06</p>
                             </div>
-                       </div>
-                    </li>    
+                     
+                    </li>                    
                     {/*listBox*/}
                     <li className="imageList">
                        <div className="imageBox"></div>
-                        <div className="textBox">
                             <h4 className="textName">Tiger Woods</h4>
                             <div className="textSub">
                              <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
                              <p className="day">22.03.06</p>
                             </div>
-                       </div>
+                     
+                    </li> 
+                    {/*listBox*/}
+                    <li className="imageList">
+                       <div className="imageBox"></div>
+                            <h4 className="textName">Tiger Woods</h4>
+                            <div className="textSub">
+                             <button type="button" className="heartBtn"><span className="ico icoHeartOff"></span>100개</button>
+                             <p className="day">22.03.06</p>
+                            </div>
+                     
                     </li>          
                 </ul>                             
             </div>
