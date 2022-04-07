@@ -172,7 +172,7 @@ $c-gray: #e6e6e6;
 .content {
   width: 100%;
   background-color: $c-white;
-  border-radius: 1.2rem 1.2rem 0px 0px;
+  border-radius: 1.2rem 1.2rem 0 0;
 }
 .contentWrap {
   display:flex;
@@ -185,16 +185,16 @@ $c-gray: #e6e6e6;
     margin:2rem 0;
     width:100%;
     height:15.3rem;
-    border: 1px solid #EEEEEE;
+    border: 0.1rem solid #EEEEEE;
     box-sizing: border-box;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+    border-radius: 1.2rem;
   &:first-child{
     margin-top:0;
   }
   }
   .btnWrap {
-    margin-top:30px;
+    margin-top:3rem;
     width:100%;
     padding: 0 2rem;
     display: flex;
@@ -204,7 +204,7 @@ $c-gray: #e6e6e6;
   .input {
     width:100%;
     height:5.2rem;
-    border:1px solid #e6e6e6;
+    border:0.1rem solid #e6e6e6;
     box-sizing: border-box;
     border-radius: 0.6rem;
   }
@@ -238,7 +238,7 @@ $c-gray: #e6e6e6;
     position:relative;
     margin : 4rem 2rem 0;
   }
-  .imageContent {
+  .imageContent { 
     display: flex;
     flex-wrap:wrap;
     justify-content: flex-start;
@@ -247,7 +247,7 @@ $c-gray: #e6e6e6;
     border-radius: 1.2rem;
   }
   .imageList{ 
-      margin:3.4rem 0 0 1.6rem;
+      margin:3.4rem 0 0 1.6rem; 
       width :calc((100% - 1.6rem)/ 2);
       height:18.4rem;
       &:nth-child(odd){
@@ -266,10 +266,10 @@ $c-gray: #e6e6e6;
   }
  .textBox {
  
-    .textTitle{
+    .textName{
 
       display: block;
-      margin-top:10px;
+      margin-top:1rem;
       font-weight: 700;
       font-size: 1.6rem;
     }
@@ -283,9 +283,9 @@ $c-gray: #e6e6e6;
         color:#000000;
         .icoHeart {
           display: inline-block;
-          margin-right:0.2rem;
-          width:1.4rem;
-          height:1.2rem;
+          margin-right:0.267rem;
+          width:1.266rem;
+          height:1.122rem;
           background-image: url("../images/ico-heartOn.png");
           background-repeat: no-repeat;
           background-size: cover;

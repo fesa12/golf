@@ -34,22 +34,22 @@ const Test = () => {
             <div className="imageWrap">
                 <h3 className="h3Title1">프로리스트</h3>
                 <ul className="imageContent">  
-                    {/*contentBox*/}
+                    {/*listBox*/}
                     <li className="imageList">
                        <div className="imageBox"></div>
                         <div className="textBox">
-                            <h4 className="textTitle">JON RAHM</h4>
+                            <h4 className="textName">JON RAHM</h4>
                             <div className="textSub">
                              <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
                              <p className="day">22.03.06</p>
                             </div>
                        </div>
                     </li> 
-                    {/*contentBox*/}
+                    {/*listBox*/}
                     <li className="imageList">
                        <div className="imageBox"></div>
                         <div className="textBox">
-                            <h4 className="textTitle">JON RAHM</h4>
+                            <h4 className="textName">Tiger Woods</h4>
                             <div className="textSub">
                              <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
                              <p className="day">22.03.06</p>
@@ -57,22 +57,22 @@ const Test = () => {
                        </div>
                     </li>                     
                 </ul>
-                    {/*contentBox*/}
+                    {/*listBox*/}
                     <li className="imageList">
                        <div className="imageBox"></div>
                         <div className="textBox">
-                            <h4 className="textTitle">JON RAHM</h4>
+                            <h4 className="textName">JON RAHM</h4>
                             <div className="textSub">
                              <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
                              <p className="day">22.03.06</p>
                             </div>
                        </div>
                     </li>    
-                                   {/*contentBox*/}
-                                   <li className="imageList">
+                    {/*listBox*/}
+                    <li className="imageList">
                        <div className="imageBox"></div>
                         <div className="textBox">
-                            <h4 className="textTitle">JON RAHM</h4>
+                            <h4 className="textName">Tiger Woods</h4>
                             <div className="textSub">
                              <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
                              <p className="day">22.03.06</p>
