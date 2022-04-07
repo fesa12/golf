@@ -1,8 +1,8 @@
 import "../assets/images/btn-hamburger.png";
-
+import "../assets/images/img-test.png";
 const Test = () => {
     return(
-        <div class="wrap">
+<div class="wrap">
         {/* header */}
         <header className="headerWrap">
             <h1 className="headerTitle">Golf AI Analysis</h1>
@@ -10,7 +10,7 @@ const Test = () => {
         </header>
 
         {/* content */}
-        <div className="content">
+    <div className="content">
             <ul className="contentWrap">
                 <li className="contentBox">
 
@@ -19,24 +19,69 @@ const Test = () => {
 
                 </li>
             </ul>
-        {/* login */}
-        <div class="login">
-         <input className="uiInput" id="loginInput"></input>
-         <br/><br/>
-         <div className="loginBtn gray"><p>로그인</p></div>
-         <br/><br/>
-         <div className="loginBtn black"><p>회원가입</p></div>
+        {/* button */}
+        
+            <div class="btnWrap">
+                <input className="input"></input>
+            <br/><br/>
+                <button type="button" className="btn black"><p>로그인</p></button>
+            <br/><br/>
+                <button type="button" className="btn gray"><p>회원가입</p></button>
          </div>
-         <ul className="image">
-            <li className="imageBox">
-                
-            </li>
-            <li className="imageBox">
-         
-         </li>
-        </ul>
-        </div>
-        </div>
+
+        <br/><br/>
+        {/* image */}
+            <div className="imageWrap">
+                <h3 className="h3Title1">프로리스트</h3>
+                <ul className="imageContent">  
+                    {/*contentBox*/}
+                    <li className="imageList">
+                       <div className="imageBox"></div>
+                        <div className="textBox">
+                            <h4 className="textTitle">JON RAHM</h4>
+                            <div className="textSub">
+                             <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
+                             <p className="day">22.03.06</p>
+                            </div>
+                       </div>
+                    </li> 
+                    {/*contentBox*/}
+                    <li className="imageList">
+                       <div className="imageBox"></div>
+                        <div className="textBox">
+                            <h4 className="textTitle">JON RAHM</h4>
+                            <div className="textSub">
+                             <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
+                             <p className="day">22.03.06</p>
+                            </div>
+                       </div>
+                    </li>                     
+                </ul>
+                    {/*contentBox*/}
+                    <li className="imageList">
+                       <div className="imageBox"></div>
+                        <div className="textBox">
+                            <h4 className="textTitle">JON RAHM</h4>
+                            <div className="textSub">
+                             <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
+                             <p className="day">22.03.06</p>
+                            </div>
+                       </div>
+                    </li>    
+                                   {/*contentBox*/}
+                                   <li className="imageList">
+                       <div className="imageBox"></div>
+                        <div className="textBox">
+                            <h4 className="textTitle">JON RAHM</h4>
+                            <div className="textSub">
+                             <button type="button" className="heartBtn"><span className="ico icoHeart"></span>100개</button>
+                             <p className="day">22.03.06</p>
+                            </div>
+                       </div>
+                    </li>                                       
+            </div>
+    </div>
+</div>
     )
 }
 
