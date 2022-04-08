@@ -536,7 +536,7 @@ td.comment {
 .guide_wrap {
   height: 100vh;
   position: relative;
-  padding-left: 180px;
+  /* padding-left: 180px; */
   background: #0b629c;
 }
 
