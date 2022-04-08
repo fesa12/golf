@@ -3,9 +3,9 @@ import { Route, Switch } from "react-router-dom";
 // import { Router } from "@/routers";
 import Guide from "@/pub/Guide.js";
 import Navigation from "@/pub/Navigation.js";
-import jin from "@/pub/jin.js";
 import Header from "@/pub/Header.js";
 import Test from "@/pub/Component.js";
+import Login from "@/pub/Login.js";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         </Route>
         {/* <Route path="/pub/guide" component={Guide} /> */}
         <Route path="/pub/Navigation" component={Navigation} />
-        <Route path="/pub/jin" component={jin} />
+        <Route path="/pub/Login" component={Login} />
         <Route path="/pub/Header" component={Header} />
         <Route path="/pub/Component" component={Test} />
       </Switch>
