@@ -33,8 +33,8 @@ const Guide = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td className="tit1">Header</td>
-                  <td className="tit2"></td>
+                  <td className="tit1">Layout</td>
+                  <td className="tit2">Header</td>
                   <td className="sbj"></td>
                   <td className="type"></td>
                   <td className="link" id="">
@@ -48,18 +48,18 @@ const Guide = () => {
                   <td className="comment"></td>
                 </tr>
                 <tr>
-                  <td className="tit1">Navigation</td>
-                  <td className="tit2"></td>
+                  <td className="tit1"></td>
+                  <td className="tit2">Navigation</td>
                   <td className="sbj"></td>
-                  <td className="type"></td>
+                  <td className="type">Layer Popup</td>
                   <td className="link" id="">
                     <Link target={"_blank"} to="/pub/Navigation">
                       /pub/Navigation
                     </Link>
                   </td>
-                  <td className="wdate"></td>
-                  <td className="status"></td>
-                  <td className="writer"></td>
+                  <td className="wdate">2022.03.31</td>
+                  <td className="status">완료</td>
+                  <td className="writer">신송희</td>
                   <td className="comment"></td>
                 </tr>
                 <tr>
