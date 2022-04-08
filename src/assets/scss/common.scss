@@ -166,22 +166,53 @@ $c-gray: #e6e6e6;
 }
 /* 김민우 */
 
-.h153 {
-  height: 15.3rem;
+.h153 {height:15.3rem;}
+.h145 {height:14.5rem;}
+.h120 {height:12rem;}
+.h90 {height:9rem;}
+.pdlr20 {padding :0 2rem;}
+
+
+<<<<<<< HEAD
+=======
+// 김민우 추가사항
+
+
+.h3Title1 {
+  
+  font-weight: 400;
+  font-size: 2.4rem;
 }
-.h145 {
-  height: 14.5rem;
-}
-.h120 {
-  height: 12rem;
-}
-.h90 {
-  height: 9rem;
-}
-.pdlr20 {
-  padding: 0 2rem;
+.wrap {
+  background-color: $c-blue;
 }
 
+.headerWrap {
+  position: relative;
+  padding: 4.3rem 0 1rem;
+  height: 11.7rem;
+  margin: 0 auto;
+}
+
+.headerTitle {
+  line-height: 6.4rem;
+  text-align: center;
+  color: $c-white;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.navBtn {
+  position: absolute;
+  right: 2.5rem;
+  top: 6.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 0;
+  background-image: url(#{$appPath}/images/btn-hamburger.png);
+  background-repeat: no-repeat;
+}
+>>>>>>> development
 .content {
   background-color: $c-white;
 }
@@ -189,9 +220,7 @@ $c-gray: #e6e6e6;
   background-color: $c-white;
   border-radius: 1.2rem 1.2rem 0 0;
 }
-.contentWrap1 {
-  padding: 4rem 2rem 0;
-}
+.contentWrap1 { padding: 4rem 2rem 0;}
 .contentBox {
   margin: 2rem 0;
   width: 100%;
@@ -202,11 +231,12 @@ $c-gray: #e6e6e6;
   &:first-child {
     margin-top: 0;
   }
+<<<<<<< HEAD
 }
 
 .btn {
-  width: 100%;
-  height: 6rem;
+  width:100%;
+  height:6rem; 
   border-radius: 1.2rem;
 }
 
@@ -222,82 +252,207 @@ $c-gray: #e6e6e6;
 /* image */
 .h3Title1 {
   font-weight: 400;
-  font-size: 2.4rem;
-  color: #222222;
+  font-size:2.4rem;
+  color:#222222;
 }
 .imageWrap {
   display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  margin-top: 4rem;
+  flex-wrap:wrap;
+  position:relative;
+  margin-top : 4rem ;
 }
-.imageContent {
+.imageContent { 
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: flex-start;
   margin-top: 2.4rem;
-  width: 100%;
+  width : 100%;
   border-radius: 1.2rem;
 }
-.imageList {
-  margin: 3.4rem 0 0 1.6rem;
-  width: calc((100% - 1.6rem) / 2);
-  height: 18.4rem;
-  &:nth-child(odd) {
-    margin-left: 0;
+.imageList{ 
+    margin:3.4rem 0 0 1.6rem; 
+    width :calc((100% - 1.6rem)/ 2);
+    height:18.4rem;
+    &:nth-child(odd){
+    margin-left:0;
   }
-  &:nth-child(-n + 2) {
-    margin-top: 0;
+    &:nth-child(-n + 2){
+      margin-top:0;
+    } 
+=======
+  .contentBox{
+    margin:2rem 0;
+    width:100%;
+    height:15.3rem;
+    border: 0.1rem solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+    border-radius: 1.2rem;
+  &:first-child{
+    margin-top:0;
   }
-}
+  }
+  .btnWrap {
+    margin-top:3rem;
+    width:100%;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input {
+    width:100%;
+    height:5.2rem;
+    border:0.1rem solid #e6e6e6;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    width:100%;
+    height:6rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    p {
+      font-size: 1.6rem;
+      font-weight: 400;
+>>>>>>> development
+    
+  }
 .imageBox {
-  width: 100%;
-  height: 13rem;
-  background: #c4c4c4;
-  border-radius: 1.2rem;
+  width:100%;
+  height:13rem;
+  background: #C4C4C4;
+  border-radius: 1.2rem;    
 }
 
-.textName {
-  position: relative;
-  margin-top: 1rem;
-  font-weight: 700;
-  font-size: 1.6rem;
-}
-.textSub {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  margin-top: 1rem;
-  .heartBtn {
+  
+  .textName{
+
+    position: relative;
+    margin-top:1rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  .textSub {
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    margin-top:1rem;
+    .heartBtn {
+      font-weight: 400;
+      font-size: 1.2rem;
+      color:#000000;
+      .icoHeart {
+        display: inline-block;
+        position:relative;
+        margin-right:0.4rem;
+        width:1.2rem;
+        height:1.1rem;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-size: 1.2rem;
+        background-image: url(#{$appPath}/images/ico-heartOn.png);
+      }
+      .icoHeartOff {
+        display: inline-block;
+        position:relative;
+        margin-right:0.4rem;
+        width:1.2rem;
+        height:1.1rem;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-size: 1.2rem;
+        background-image: url(#{$appPath}/images/ico-heartOff.png);
+      }
+  }
+  .day{
     font-weight: 400;
     font-size: 1.2rem;
-    color: #000000;
-    .icoHeart {
-      display: inline-block;
-      position: relative;
-      margin-right: 0.4rem;
-      width: 1.2rem;
-      height: 1.1rem;
-      vertical-align: middle;
-      background-repeat: no-repeat;
-      background-size: 1.2rem;
-      background-image: url(#{$appPath}/images/ico-heartOn.png);
-    }
-    .icoHeartOff {
-      display: inline-block;
-      position: relative;
-      margin-right: 0.4rem;
-      width: 1.2rem;
-      height: 1.1rem;
-      vertical-align: middle;
-      background-repeat: no-repeat;
-      background-size: 1.2rem;
-      background-image: url(#{$appPath}/images/ico-heartOff.png);
-    }
+    color:#666666;
   }
-  .day {
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #666666;
+<<<<<<< HEAD
+=======
+  .black {
+    background-color: #000000;
+    color:#ffffff;
   }
+  /* image */
+  .imageWrap {
+    display: flex;
+    flex-wrap:wrap;
+    position:relative;
+    margin : 4rem 2rem 0;
+  }
+  .imageContent { 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    margin-top: 2.4rem;
+    width : 100%;
+    border-radius: 1.2rem;
+  }
+  .imageList{ 
+      margin:3.4rem 0 0 1.6rem; 
+      width :calc((100% - 1.6rem)/ 2);
+      height:18.4rem;
+      &:nth-child(odd){
+      margin-left:0;
+    }
+      &:nth-child(-n + 2){
+        margin-top:0;
+      } 
+      
+    }
+  .imageBox {
+    width:100%;
+    height:13rem;
+    background: #C4C4C4;
+    border-radius: 1.2rem;    
+  }
+ .textBox {
+ 
+    .textName{
+
+      display: block;
+      margin-top:1rem;
+      font-weight: 700;
+      font-size: 1.6rem;
+    }
+    .textSub {
+      display: flex;
+      justify-content: space-between;
+      margin-top:1rem;
+      .heartBtn {
+        font-weight: 400;
+        font-size: 1.2rem;
+        color:#000000;
+        .icoHeart {
+          display: inline-block;
+          margin-right:0.267rem;
+          width:1.266rem;
+          height:1.122rem;
+          background-image: url("../images/ico-heartOn.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+        .day{
+          font-weight: 400;
+          font-size: 1.2rem;
+          color:#666666;
+        }
+    }
+
+ }
+ 
+    
+    
+  
+>>>>>>> development
+
+
 }
