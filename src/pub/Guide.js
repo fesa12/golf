@@ -100,13 +100,13 @@ const Guide = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td className="tit1">jin</td>
+                  <td className="tit1">Login</td>
                   <td className="tit2"></td>
                   <td className="sbj"></td>
                   <td className="type"></td>
                   <td className="link" id="">
-                    <Link target={"_blank"} to="/pub/jin">
-                      /pub/jin
+                    <Link target={"_blank"} to="/pub/Login">
+                      /pub/Login
                     </Link>
                   </td>
                   <td className="wdate"></td>
